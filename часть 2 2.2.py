@@ -1,11 +1,11 @@
 import math
 t  = float(input('введите t:'))
-a = 
-b = 1
-c = 5*a - 8*b4
+a = (t-5)
+b = -3*t
+c = 2*(t-3)
 if a == 0:
     x =  -c/b
-    print('x =', x)
+    print('имее т один корень x =', x)
 else:
     D = b**2 - 4 * a * c
     print("D:", D)
@@ -17,4 +17,4 @@ else:
         x2 = (-b - math.sqrt(D)) / (2* a)
         print('x1 =', x1, '\nx2 =', x2)
     else:
-        print("D < 0")
+        print("не имеет корней D < 0")
